@@ -46,7 +46,25 @@
                 <input type="date" id="dob" name="dob" required>
             </div>
     
-            
+            <div class="book">
+                <label for="book-category">Preferred Book Category</label>
+                <select id="book-category" name="book-category" required>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="science">Science</option>
+                    <option value="cartoon">Cartoon</option>
+                    <option value="history">History</option>
+                    <option value="technology">Technology</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+    
+            <div class="news">
+                <input type="checkbox" id="data-agreement" name="data-agreement" required>
+                <label for="data-agreement" class="checkbox-label">I want to receive library news and information  email</label>
+            </div>
+    
+            <button type="submit" class="submit-btn">Submit</button>
         </form>
     
 </body>
