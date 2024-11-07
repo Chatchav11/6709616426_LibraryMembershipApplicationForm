@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-        <h2>Library Membership Form</h2>
+        <h2 class="topic">Library Membership Form</h2>
         <form>
             
             <div class="fullname">
@@ -20,15 +20,15 @@
                 <label>Gender</label>
                 <input type="radio" id="male" name="gender" value="male" required>
                 <label for="male" class="radio-label">Male</label>
-                <input type="radio" id="female" name="gender" value="female">
+                <input type="radio" id="female" name="gender" value="female" required>
                 <label for="female" class="radio-label">Female</label>
-                <input type="radio" id="other" name="gender" value="other">
+                <input type="radio" id="other" name="gender" value="other" required>
                 <label for="other" class="radio-label">Other</label>
             </div>
 
             <div class="std ID">
-                <label for="student-id">Student ID</label>
-                <input type="text" id="student-id" name="student-id" required>
+                <label for="student id">Student ID</label>
+                <input type="text" id="student id" name="student id" required>
             </div>
     
             <div class="std FAC">
@@ -47,10 +47,9 @@
             </div>
     
             <div class="book">
-                <label for="book-category">Preferred Book Category</label>
-                <select id="book-category" name="book-category" required>
+                <label for="book category">Preferred Book Category</label>
+                <select id="book category" name="book category" required>
                     <option value="fiction">Fiction</option>
-                    <option value="non-fiction">Non-Fiction</option>
                     <option value="science">Science</option>
                     <option value="cartoon">Cartoon</option>
                     <option value="history">History</option>
@@ -60,11 +59,12 @@
             </div>
     
             <div class="news">
-                <input type="checkbox" id="data-agreement" name="data-agreement" required>
-                <label for="data-agreement" class="checkbox-label">I want to receive library news and information  email</label>
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement" class="checkbox-label">I want to receive library news and information  email</label>
             </div>
     
-            <button type="submit" class="submit-btn">Submit</button>
+            <button type="submit" class="submit">Submit</button>
+
         </form>
     
 </body>
